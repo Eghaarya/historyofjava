@@ -4,13 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
 	<title>Home Page</title>
 </head>
 <body style="background-color:black;">
 	
 	<nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">𝓜𝓾𝓼𝓮𝓾𝓶𝓗𝓞𝓙</a>
+    <a class="navbar-brand" id="logo" href="#">𝓜𝓾𝓼𝓮𝓾𝓶𝓗𝓞𝓙</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,17 +21,17 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about/index.html">About</a>
+          <a class="nav-link" id="pilihan" href="about/index.html">About</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Others
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="gallery/index.html">Gallery</a></li>
-            <li><a class="dropdown-item" href="sosmed/index.html">Sosmed</a></li>
+            <li><a class="dropdown-item" id="pilihan" href="gallery/index.html">Gallery</a></li>
+            <li><a class="dropdown-item" id="pilihan" href="sosmed/index.html">Sosmed</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="contact/index.html">Contact</a></li>
+            <li><a class="dropdown-item" id="pilihan" href="contact/index.html">Team</a></li>
           </ul>
         </li>
         
@@ -52,9 +53,9 @@
 	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
 	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
 	</div>
-	<div class="carousel-inner">
+	<div class="carousel-inner " style="padding:2px; background-color: white;">
 	<div class="carousel-item active" >
-	  <img src="img/1.jpg" class="d-block w-100 border-white" alt="..." style="height:350px; ">
+	  <img src="img/2.jpg" class="d-block w-100 border-white" alt="..." style="height:350px; ">
 	  <div class="carousel-caption ">
 	    <h5>✨-Tempat Bersejarah-✨</h5>
 	    <i><p>Berpetualang melewati sejarah yang menakjubkan.</p></i>
@@ -86,7 +87,7 @@
 	</div>
 	<!-- akhir carosel images -->
   <div class="row text-center align-items-center mt-4">
-    <div class="col-12">
+    <div  class="col-12">
       <img src="img/aku.png" width="35%" alt="Image">
       <h2>Egha Arya Affandi</h2>
       <p><i>🌟XII MM 2🌟</i></p>
@@ -120,9 +121,9 @@
   <div class="col-sm-3 mb-2">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title text-center">Website MCI - Tempat Beli Produk MCI Terbaik di Indonesia</h5>
+        <h5 class="card-title text-center">Company Profile - Website Perusahaan</h5>
         <i><p class="card-text">With supporting text below as a natural lead-in to additional content.</p></i>
-        <a href="https://eghaarya.github.io/mci.github.io/" class="btn btn-dark d-block">Go somewhere</a>
+        <a href="https://eghaarya.github.io/companyprofile.github.io/" class="btn btn-dark d-block">Go somewhere</a>
       </div>
       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
     99+</span>
@@ -135,8 +136,8 @@
         <i><p class="card-text">With supporting text below as a natural lead-in to additional content.</p></i>
         <a href="https://eghaarya.github.io/eghaarya1.github.io/" target="_blank" class="btn btn-primary">Go somewhere</a>
       </div>
-      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
-    Profile</span>
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info"><a href="" style="color:white;">
+    Profile</a></span>
     </div>
   </div>
 </div>
