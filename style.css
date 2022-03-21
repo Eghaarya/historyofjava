@@ -52,3 +52,9 @@
 	background-color: grey;
 }
 
+h5:hover{
+	font-size: 1.2rem;
+}
+p:hover{
+	font-size: 1.2rem;
+} 
